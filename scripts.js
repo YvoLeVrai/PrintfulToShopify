@@ -4,7 +4,7 @@ $(document).ready(function() {
         type: "GET",
         dataType: "json",
         headers: {
-            "Authorization": "Bearer abFh3kSd9bzQZ3eTbo6Mxf2S05Lqx7HqZfbKSMgB"
+            "Authorization": "Bearer "
         },
         success: function(result) {
             $.each(result.result, function(index, template) {
